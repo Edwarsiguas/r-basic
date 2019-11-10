@@ -18,3 +18,29 @@ NA
 NaN
 5/0
 0/0
+2^50 # 1.1259e+15 = 1.125900000000000
+2^(-15) # 3.051758e-05 = 0.00003051758
+
+c(2^30, 2^(-15),1,2,3/2)
+
+sqrt(25)
+exp(1)
+log(pi)
+abs(-pi)
+factorial(7)
+factorial(4)
+factorial(-5)
+factorial(0)
+choose(5,3)
+6^(log(4,6))
+log(4^6,4)
+
+cos(60*pi/180)
+sin(60*pi/180)
+sinpi(1/2)
+tan(pi)
+tan(pi/2)
+asin(0.8660254)
+asin(0.8660254) *180/pi
+
+
