@@ -62,5 +62,35 @@ HOLA = 5
 Hola = 1
 x=2
 x = x^2
+## funcion f(x) = x^3 - (3^x) * sen(x)
+f=function(x){x^3 - (3^x) * sin(x)}
+f(4)
+f(5)
+f(pi/2)
+suma1 <- function(t){
+  t+1
+}
 
+suma1(6)
+suma1(-5)
 
+product <- function(x,y){
+  x*y
+}
+product(5,7)
+g<-function(x, y,z ){
+  exp(x^2 + y^2) * sin(z)
+}
+
+g(1,2,3)
+g(1,-1,pi)
+suma5 <- function(numero){
+  numero = suma1(numero);
+  numero = suma1(numero);
+  numero = suma1(numero);
+  numero = suma1(numero);
+  suma1(numero);
+}
+suma5(3)
+ls()
+rm(product)
