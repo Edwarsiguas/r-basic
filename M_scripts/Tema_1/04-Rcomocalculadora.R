@@ -43,4 +43,24 @@ tan(pi/2)
 asin(0.8660254)
 asin(0.8660254) *180/pi
 
+print(sqrt(2),10)
+round(sqrt(2),3)
+floor(sqrt(2))
+ceiling(sqrt(2))
+trunc(sqrt(2))
+(pi^2)/2
+
+x=(pi^2)/2
+x
+y <- cos(pi/4)
+y
+sin(pi/4) + cos(pi/4) -> z
+z
+edad <- 36
+nombre <- "Edwar Siguas"
+HOLA = 5
+Hola = 1
+x=2
+x = x^2
+
 
