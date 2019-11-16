@@ -1,0 +1,21 @@
+---
+title: "R & Python"
+author: "Curso de Estadistica descriptiva"
+date: "16/11/2019"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Reticulate
+
+```{r}
+library(reticulate)
+os <- import("os")
+os$listdir(".")
+```
+
